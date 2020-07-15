@@ -1,0 +1,28 @@
+{
+  "name": "its-mieger/mysql-shared-locks",
+  "description": "Shared locks using MySQL >= 5.7.5",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Christopher Mieger",
+      "email": "christopher.mieger@its-mieger.de"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "": "test/"
+    }
+  }
+}
